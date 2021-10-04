@@ -4,8 +4,8 @@ import preprocessor as p
 import statistics
 from typing import List
 
-consumer_key= "rhpRAkt9kKtvp0Oiszo4XpS6t"
-consumer_secret = "wvLol122UDsvIeuVx5ZwTaKAXcj1qxAPvASNPzWUKemaNDGhIw"
+consumer_key= ""
+consumer_secret = ""
 
 
 def get_tweets(keyword:str)->List[str]:
