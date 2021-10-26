@@ -11,7 +11,7 @@ Compares 2 things to see which one is more popular.
 
 1. First, a user will input two keywords, e.g. Batman and Superman.
 
-2. We will then download the latest, real-time tweets relating to those two keywords using the Twitter API.  
+2. The program will then download the latest, real-time tweets relating to those two keywords using the Twitter API.  
 
 3. Next, the TextBlob library for calculating the tweets'
  sentiments (NLP part). This tells us how people feel about the specified keywords at this moment in time. 
