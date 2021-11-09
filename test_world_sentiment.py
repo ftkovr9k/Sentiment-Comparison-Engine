@@ -2,13 +2,8 @@ import world_sentiment as world
 from pytest import approx
 
 def check_avg_score:
-  assert world.generate_average_sentiment_score == average_score;
-def check_score:
-  assert world.first_score == world.generate_average_sentiment_score(first_thing)
-  assert world.second_score == world.generate_average_sentiment_score(second_thing)
-
- def check_greater:
-  assert world.if(first_score>second_score):
-      print(f"The humanity prefers {first_thing} over {second_thing}")
- else:
-      print(f"The humanity prefers {second_thing} over {first_thing}")
+  assert world.generate_average_sentiment_score(all_tweets) == average_score;
+def check_get_sentiment:
+  assert world.get_sentiment(all_tweets) == sentiment_scores
+def check_get_tweets:
+  assert world.get_tweets(keyword) == all_tweets
